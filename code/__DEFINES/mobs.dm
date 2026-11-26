@@ -345,6 +345,7 @@ GLOBAL_LIST_INIT(default_xeno_onmob_icons, list(
 
 // species names
 #define SPECIES_HUMAN "Human"
+#define SPECIES_ASARI "Asari"
 #define SPECIES_YAUTJA "Yautja"
 #define SPECIES_SYNTHETIC "Synthetic"
 #define SPECIES_MONKEY "Monkey"

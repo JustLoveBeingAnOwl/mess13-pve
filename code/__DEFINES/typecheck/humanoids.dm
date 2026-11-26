@@ -21,6 +21,7 @@
 //Specic group checks, use instead of typechecks (but use traits instead)
 #define issamespecies(A, B) (A.species?.group == B.species?.group)
 #define isspecieshuman(A) (A.species?.group == SPECIES_HUMAN)
+#define isspeciesasari(A) (A.species?.group == SPECIES_ASARI)
 #define isspeciesmonkey(A) (A.species?.group == SPECIES_MONKEY)
 #define isspeciesyautja(A) (A.species?.group == SPECIES_YAUTJA)
 #define isspeciessynth(A) (A.species?.group == SPECIES_SYNTHETIC)

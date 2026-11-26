@@ -177,6 +177,8 @@
 #define TRAIT_INFILTRATOR_SYNTH "t_infiltrator_synth"
 /// Makes it impossible to strip the inventory of this mob.
 #define TRAIT_UNSTRIPPABLE "t_unstrippable"
+/// Is a Biotic
+#define TRAIT_BIOTIC "t_biotic"
 
 // HIVE TRAITS
 /// If the Hive is a Xenonid Hive
@@ -325,6 +327,7 @@ GLOBAL_LIST_INIT(mob_traits, list(
 	TRAIT_IN_TUTORIAL,
 	TRAIT_SPEC_KIT,
 	TRAIT_SPEC_VENDOR,
+	TRAIT_BIOTIC
 ))
 
 /*
@@ -346,6 +349,7 @@ GLOBAL_LIST_INIT(traits_by_type, list(
 		"TRAIT_INTENT_EYES" = TRAIT_INTENT_EYES,
 		"TRAIT_INFILTRATOR_SYNTH" = TRAIT_INFILTRATOR_SYNTH,
 		"TRAIT_UNSTRIPPABLE" = TRAIT_UNSTRIPPABLE,
+		"TRAIT_BIOTIC" = TRAIT_BIOTIC,
 		"TRAIT_NESTED" = TRAIT_NESTED,
 		"TRAIT_CRAWLER" = TRAIT_CRAWLER,
 		"TRAIT_SIMPLE_DESC" = TRAIT_SIMPLE_DESC,
